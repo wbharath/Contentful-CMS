@@ -1,4 +1,5 @@
 import { useFetchProjects } from './fetchProjects'
+import heroImg from './assets/hero.svg'
 const Projects = () => {
   const { loading, projects } = useFetchProjects()
 
